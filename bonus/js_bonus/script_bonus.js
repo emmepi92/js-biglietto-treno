@@ -10,4 +10,4 @@ if ((2021 - year) < 18) {
     ticketPrice = ticketPrice / 100 * 60;
 }
 
-outputElement.innerHTML = "Prezzo Biglietto: € " + ticketPrice;
+outputElement.innerHTML = "Prezzo Biglietto: € " + (ticketPrice).toFixed(2);

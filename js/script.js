@@ -16,7 +16,4 @@ if (years < 18) {
 } else if (years >= 65) {
     ticketPrice = ticketPrice / 100 * 60;
     outputElement.innerHTML +='<br/>Complimenti, ha diritto ad uno sconto del 40% sul prezzo del suo biglietto, il prezzo scontanto è € ' + ticketPrice;
-} else {
-    outputElement.innerHTML ='Il prezzo del suo biglietto è pari a € ' + ticketPrice;
-}
-
+};

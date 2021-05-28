@@ -1,5 +1,5 @@
 var kmInput = prompt("Quanti chilomentri è distante la sua meta?");
-var yearsInput = prompt("Quanti anni hai?")
+var yearsInput = prompt("Quanti anni ha?")
 
 var km = parseInt(kmInput);
 var years = parseInt(yearsInput);

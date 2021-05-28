@@ -3,10 +3,11 @@ var year= parseInt(prompt("In che anno sei nato?"));
 
 var outputElement = document.getElementById('output');
 var ticketPrice = km * 0.21;
+var currentYear = new Date();
 
-if ((2021 - year) < 18) {
-    ticketPrice = ticketPrice / 100 * 80
-} else if ((2021 - year) >= 65) {
+if ((currentYear.getFullYear() - year) < 18) {
+    ticketPrice = ticketPrice / 100 * 80;
+} else if ((currentYear.getFullYear() - year) >= 65) {
     ticketPrice = ticketPrice / 100 * 60;
 }
 

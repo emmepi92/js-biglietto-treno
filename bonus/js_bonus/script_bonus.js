@@ -1,5 +1,5 @@
 var km = parseInt(prompt("Quanti chilomentri è distante la sua meta?"));
-var year= parseInt(prompt("In che anno sei nato?"));
+var year= parseInt(prompt("In che anno è nato?"));
 
 var outputElement = document.getElementById('output');
 var ticketPrice = km * 0.21;
